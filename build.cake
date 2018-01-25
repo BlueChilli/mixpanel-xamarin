@@ -185,6 +185,10 @@ Action<string,string> build = (solution, configuration) =>
 			.WithProperty("PackageOutputPath",  MakeAbsolute(Directory(artifactDirectory)).ToString())
 			.WithProperty("NoWarn", "1591") // ignore missing XML doc warnings
 			.WithProperty("TreatWarningsAsErrors", treatWarningsAsErrors.ToString())
+			.WithProperty("ServerAddress",  "\"" +  EnvironmentVariable("MacServerAddress") + "\"")
+		    .WithProperty("ServerUser",  "\"" +   EnvironmentVariable("MacServerUser") + "\"")
+		    .WithProperty("ServerPassword",  "\"" +   EnvironmentVariable("MacServerPassword") + "\"")
+		
 		  	.SetVerbosity(Verbosity.Minimal)
 			.SetNodeReuse(false);
 		
