@@ -192,3 +192,4 @@ ModelManifest.xml
 *.userprefs
 .mfractor
 tools/
+artifacts/
