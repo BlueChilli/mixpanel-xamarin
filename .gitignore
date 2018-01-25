@@ -191,5 +191,6 @@ ModelManifest.xml
 *.DS_Store
 *.userprefs
 .mfractor
-tools/
+tools/**
 artifacts/
+!tools/packages.config
