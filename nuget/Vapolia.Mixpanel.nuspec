@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Vapolia.Mixpanel</id>
-    <version>1.0.0.0</version>
+    <version>$version</version>
     <title>Mixpanel bindings for Xamarin iOS/Android</title>
     <authors>Benjamin Mayrargue, NinZine</authors>
     <owners>Benjamin Mayrargue</owners>

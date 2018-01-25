@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixpanelBindings", "MixpanelBindings\MixpanelBindings.csproj", "{1BAFC6D7-A205-4CF6-8276-A744D9A23974}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{85094676-41BE-4D42-929A-92E7697F0C25}"
+	ProjectSection(SolutionItems) = preProject
+		nuget\pack.bat = nuget\pack.bat
+		nuget\Vapolia.Mixpanel.nuspec = nuget\Vapolia.Mixpanel.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "support", "support", "{63F7061D-28C1-4AA6-BF21-CD3400F39B4A}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		Makefile = Makefile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixpanelDroid", "MixpanelDroid\MixpanelDroid.csproj", "{900F1B4E-CC23-4017-8DAA-364EABBB2480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BAFC6D7-A205-4CF6-8276-A744D9A23974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAFC6D7-A205-4CF6-8276-A744D9A23974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAFC6D7-A205-4CF6-8276-A744D9A23974}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1BAFC6D7-A205-4CF6-8276-A744D9A23974}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1BAFC6D7-A205-4CF6-8276-A744D9A23974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAFC6D7-A205-4CF6-8276-A744D9A23974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAFC6D7-A205-4CF6-8276-A744D9A23974}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1BAFC6D7-A205-4CF6-8276-A744D9A23974}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{900F1B4E-CC23-4017-8DAA-364EABBB2480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900F1B4E-CC23-4017-8DAA-364EABBB2480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900F1B4E-CC23-4017-8DAA-364EABBB2480}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{900F1B4E-CC23-4017-8DAA-364EABBB2480}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{900F1B4E-CC23-4017-8DAA-364EABBB2480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900F1B4E-CC23-4017-8DAA-364EABBB2480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900F1B4E-CC23-4017-8DAA-364EABBB2480}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{900F1B4E-CC23-4017-8DAA-364EABBB2480}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
