@@ -17,7 +17,7 @@ namespace MixPanelBinding.TestIos
 	public class MixPanelStat : IMixPanel
 	{
 		//TODO: USE YOUR OWN MIXPANEL ID !!!
-		const string YourMixPanelId = "77---------------------";
+        const string YourMixPanelId = "1d7be370c1639b1df4a694a5912b8538";
 
 		public void LoginUser(string userId)
 		{
@@ -49,7 +49,7 @@ namespace MixPanelBinding.TestIos
 				//This is the recommended version to use when the binding works.
 				//It returns null if the binding does not work.
 				//var mixpanel = Mixpanel.SharedInstanceWithToken(YourMixpanelId);
-
+                mixpanel.Track("Testing Mixpanel");
 				Debug.WriteLine("Mixpanel initialized DistinctId {0}", (object)mixpanel.DistinctId);
 			}
 			catch(Exception e)
