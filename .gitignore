@@ -194,3 +194,4 @@ ModelManifest.xml
 tools/**
 artifacts/
 !tools/packages.config
+MixpanelStaticLibrary
