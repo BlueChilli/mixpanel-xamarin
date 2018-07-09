@@ -1,5 +1,10 @@
 ﻿<Properties StartupConfiguration="{900F1B4E-CC23-4017-8DAA-364EABBB2480}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MixpanelDroid/Transforms/Metadata.xml">
+    <Files>
+      <File FileName="MixpanelDroid/Jars/AboutJars.txt" Line="1" Column="1" />
+      <File FileName="MixpanelDroid/Transforms/Metadata.xml" Line="24" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

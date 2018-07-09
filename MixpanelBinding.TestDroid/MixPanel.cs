@@ -5,9 +5,9 @@ using System.Diagnostics;
 using Android.App;
 using Android.Content;
 using Android.Runtime;
-using Mixpanel.Android.MpMetrics;
 using MixpanelBinding.TestDroid;
 using Org.Json;
+using Mixpanel.Android.MpMetrics;
 
 //Permissions required by Mixpanel
 [assembly: UsesPermission(Android.Manifest.Permission.Internet)]
@@ -37,7 +37,7 @@ namespace MixPanelBinding.TestDroid
 	public class MixPanelStat : IMixPanel
 	{
 		//TODO: USE YOUR OWN MIXPANEL ID !!!
-		private const string YourMixPanelId = "7777---------------------";
+        private const string YourMixPanelId = "1d7be370c1639b1df4a694a5912b8538";
 	    private readonly MixpanelAPI mixpanel;
 
 	    public MixPanelStat(Context context)
@@ -48,7 +48,10 @@ namespace MixPanelBinding.TestDroid
 				Debug.WriteLine("Mixpanel initialized DistinctId {0}", (object)mixpanel.DistinctId);
 
                 //Ex: send an event with some properties
-                //mixpanel.Track("Coucou Android", new JSONObject(new Dictionary<string,object>{ {"key1","value1"} }));
+               CreateUser("user123");
+                mixpanel.Track("Coucou Android", new JSONObject(new Dictionary<string,object>{ {"key1","value1"} }));
+              
+
 			}
 			catch(Exception e)
 			{

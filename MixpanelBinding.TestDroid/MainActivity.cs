@@ -2,7 +2,6 @@
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
-using Mixpanel.Android.MpMetrics;
 using MixPanelBinding.TestDroid;
 using Xamarin.Android.NUnitLite;
 

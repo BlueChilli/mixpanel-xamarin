@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{55BFFE97-004F-4FA0-9305-0CCC47421DBC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MixPanelBinding.TestIos/MixPanel.cs">
+    <Files>
+      <File FileName="MixpanelDroid/packages.config" Line="12" Column="101" />
+      <File FileName="MixPanelBinding.TestIos/MixPanel.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MixpanelBinding.TestDroid PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MixpanelDroid PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MixPanelBinding.TestIos PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A1D288F0-22DD-4345-ADD4-02D04287CBCD" />
+</Properties>

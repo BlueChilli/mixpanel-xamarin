@@ -20,21 +20,26 @@
       You need MonoAndroid51 compatible projects
     </releaseNotes>
     <dependencies>
-      <group targetFramework="MonoAndroid51">
-        <dependency id="Xamarin.Android.Support.v4" version="22.2.1.0"/>
-        <dependency id="Xamarin.Android.Support.v7.AppCompat" version="22.2.1.0"/>
-        <dependency id="Xamarin.GooglePlayServices.Base" version="25.0.0.0"/>
-        <dependency id="Xamarin.GooglePlayServices.Gcm" version="25.0.0.0"/>
+      <group targetFramework="MonoAndroid44">
+        <dependency id="Xamarin.Android.Support.v4" version="27.0.2.0"/>
+        <dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2.0"/>
+        <dependency id="Xamarin.GooglePlayServices.Gcm" version="60.1142.1"/>
+      </group>
+      <group targetFramework="MonoAndroid81">
+        <dependency id="Xamarin.Android.Support.v4" version="27.0.2.0"/>
+        <dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2.0"/>
+        <dependency id="Xamarin.GooglePlayServices.Gcm" version="60.1142.1"/>
       </group>
     </dependencies>    
   </metadata>
   <files>
 
     <!-- droid -->
-    <file src="..\MixpanelDroid\bin\Release\MixpanelDroid.dll" target="lib\MonoAndroid51\MixpanelAndroid.dll" />
+    <file src="..\MixpanelDroid\bin\Release\Mixpanel*.dll" target="lib\MonoAndroid81" />
+    <file src="..\MixpanelDroid\bin\Release\Mixpanel*.dll" target="lib\MonoAndroid44" />
 
     <!-- ios -->
-    <file src="..\MixpanelBindings\bin\Release\MixpanelBindings.dll" target="lib\Xamarin.iOS\MixpanelBindings.dll" />
+    <file src="..\MixpanelBindings\bin\Release\Mixpanel*.dll" target="lib\Xamarin.iOS10" />
 
   </files>
 </package>
