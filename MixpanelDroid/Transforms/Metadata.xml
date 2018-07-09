@@ -14,7 +14,6 @@
   <remove-node path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='UpdateDisplayState']" />
   <remove-node path="/api/package[@name='com.mixpanel.android.surveys']/class[@name='SurveyActivity']" />
   <remove-node path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='InAppFragment']/method[@name='setDisplayState' and count(parameter)=3 and parameter[1][@type='com.mixpanel.android.mpmetrics.MixpanelAPI'] and parameter[2][@type='int'] and parameter[3][@type='com.mixpanel.android.mpmetrics.UpdateDisplayState.DisplayState.InAppNotificationState']]" />
-  <attr path="/api/package[@name='com.mixpanel.android.mpmetrics']/class[@name='InAppNotification']/method[@name='getType' and count(parameter)=0]" name="managedName">GetTheType</attr>
 
   <remove-node path="/api/package[@name='com.mixpanel.android.java_websocket']" />
   <remove-node path="/api/package[@name='com.mixpanel.android.java_websocket.handshake']" />

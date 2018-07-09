@@ -1,5 +1,5 @@
 assembly-versioning-scheme: None
-next-version: 4.7.2
+next-version: 5.0.0
 branches:
   master:
     mode: ContinuousDelivery
